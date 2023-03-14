@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: Regular;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+.box {
+  height: 350px;
+  width: 500px;
+  background-color: lawngreen;
+  position: relative;
+  box-shadow: 12px 12px 12px 12px gray, 12px 12px 12px 12px gray;
+  border-radius: 5px;
+  margin-top: 120px;
+}
+
+.box1 {
+  height: 70px;
+  width: 100%;
+  background-color: lemonchiffon;
+  color: black;
+  display: grid;
+  place-items: center;
+}
+
+.box2 {
+  font-size: 21px;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  height: 45px;
+  border: none;
+  width: 460px;
+  text-align: center;
+  border-bottom: 2px solid #4b4949;
+  padding: 0 10px;
+  color: white;
+  background-color: 0 0;
+}
+
+.box2::placeholder {
+  color: white;
+}
+
+.line {
+  position: absolute;
+  top: 150px;
+  left: 20px;
+  list-style: none;
+  height: 120px;
+  width: 260px;
+  overflow: auto;
+}
+
+.line li {
+  height: 50%;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+  left: 0;
+  border: 1px solid #1f3148;
+  overflow: hidden;
+}
+
+.btn {
+  height: 50px;
+  width: 220px;
+  position: absolute;
+  left: 120px;
+  bottom: 20px;
+  background: #2173fd;
+  outline: 0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 3s ease-in;
+}
+
+.btn:hover {
+  background: none;
+  border: 3px solid #5bcae6;
+  color: #2173fd;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.line .deleteTask {
+  height: 50px;
+  width: 40px;
+  z-index: 50;
+  display: grid;
+  position: absolute;
+  right: 0;
+  color: white;
+  transition: 2s ease-in-out;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
