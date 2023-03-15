@@ -1,13 +1,13 @@
 "use script"
 
-// window.onload= function(){
-//   let task = document.querySelector(".box2")
-//   let list = document.querySelector(".line")
-//   let addTask = document.querySelector(".btn")
+window.onload= function(){
+  let task = document.querySelector(".box2")
+  let list = document.querySelector(".line")
+  let addTask = document.querySelector(".btn")
 
-//   addTask.addEventListener("click", ()=>{
-//     list.insertAdjacentHTML(`afterbegin`,
-//     `li
+  addTask.addEventListener("click", ()=>{
+    list.insertAdjacentHTML(`afterbegin`,
+    `li
     
     <h4>${task.value}</h4>
     </li>`);
